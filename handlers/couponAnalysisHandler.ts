@@ -23,7 +23,7 @@ export async function couponAnalysisHandler(
     replyFn('Premium AI kupon analizi başlayır...');
 
     // Hər matç üçün AI analizini topla
-    const results = await Promise.all(coupon.map(matchId => aggregateAnalysis(matchId)));
+    const results = await Promise.all(coupon.map((matchId: string) => aggregateAnalysis(matchId)));
 
     // Cavabı formatla
     let msg = '🎯 Kupon AI Analiz Nəticələri:\n\n';
