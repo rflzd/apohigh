@@ -1,6 +1,7 @@
 {
   "name": "apohigh-bot",
   "version": "1.0.0",
+  "type": "module",
   "description": "Telegram bot, Node.js versiyası",
   "main": "index.js",
   "scripts": {
@@ -12,7 +13,6 @@
     "prompt-sync": "^4.2.0"
   },
   "keywords": [],
-  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
